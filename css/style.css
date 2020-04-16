@@ -125,6 +125,9 @@ main:after {
   font-size: 25px;
   padding-right: 5px;
 }
+.left .subtitle {
+  margin-bottom: 30px;
+}
 /* seconda colonna */
 .center {
   width: 56%;
@@ -153,10 +156,6 @@ main:after {
 
 .right .subtitle {
   margin-bottom: 30px;
-}
- /* interno colonne */
-.subtitle {
-  margin-bottom: 5px;
 }
 /* fine main */
 
