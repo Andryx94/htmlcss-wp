@@ -20,7 +20,7 @@ header {
   background-color: rgba(255,255,255,1);
   /* box-shadow: 2px 2px rgba(0,0,0,0.5); */
   text-align: center;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 /* Titolo */
@@ -140,9 +140,30 @@ main:after {
 
 /* Footer */
 footer {
-  width: 100%;
   background-color: rgba(255,255,255,1);
   /* box-shadow: 2px 2px rgba(0,0,0,0.5); */
   text-align: center;
+  font-size: 10px;
+  margin-bottom: 20px;
+  color: rgba(0,0,0,0.3);
+}
+
+.firma {
+  padding: 2px;
+}
+.socialbox {
+  width: 99%;
+  border-top: 1px solid rgba(0,0,0,0.3);
+  height: 100px;
+}
+.social {
+  float: left;
+  width: 33%;
+  font-size: 30px;
+  padding: 25px;
+}
+
+.social a {
+  color: rgba(0,0,0,0.3);
 }
 /* fine footer */
