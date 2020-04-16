@@ -1,0 +1,122 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fine reset */
+
+ body {
+  background-image: url(../img/background.png);
+  margin: 0 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+ }
+
+h3 {
+  font-size: 18px;
+}
+/* Header */
+header {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(255,255,255,1);
+  box-shadow: 2px 2px rgba(0,0,0,0.5);
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Titolo */
+header .title {
+  position: relative;
+  margin: auto;
+  padding: 15px 0;
+}
+
+/* Menù */
+header .menu {
+  position: absolute;
+  background-color: grey;
+  width: 100%;
+  bottom: 0px;
+}
+
+header .link {
+  display: inline-block;
+  font-size: 12px;
+  margin: auto;
+  padding: 15px 5px;
+}
+
+header .link a {
+  color: rgba(255, 255, 255, .9);
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
+  text-decoration: none;
+}
+
+header .link:hover {
+  background-color: #3d3732;
+}
+/* fine Header */
+
+/* Main */
+main {
+  margin: 10px 0;
+}
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  border-radius: 1%;
+}
+
+/* prima colonna */
+.left {
+  background-color: rgba(255,255,255,1);
+  box-shadow: 2px 2px rgba(0,0,0,0.5);
+  border-radius: 1%;
+}
+
+/* seconda colonna */
+.center {
+  width: 56%;
+  margin: 0 2%;
+  background-color: rgba(255,255,255,1);
+  box-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+/* terza colonna */
+.right > div {
+  width: 100%;
+  list-style-type: none;
+  background-color: rgba(255,255,255,1);
+  box-shadow: 2px 2px rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+  border-radius: 1%;
+}
+
+.right > div:last-child {
+  margin-bottom: none;
+}
+
+ /* interno colonne */
+.subtitle {
+  margin-bottom: 5px;
+}
+/* fine main */
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: rgba(255,255,255,1);
+  box-shadow: 2px 2px rgba(0,0,0,0.5);
+  text-align: center;
+}
+/* fine footer */
